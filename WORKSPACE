@@ -43,11 +43,11 @@ rules_pkg_dependencies()
 # You *must* import the Go rules before setting up the go_image rules.
 http_archive(
     name = "io_bazel_rules_go",
+    sha256 = "df76f2a947aef03979ea0b6b9551d55ecc1821e4097f86a8422fdeac80b9ecd4",
     urls = [
-        "https://storage.googleapis.com/bazel-mirror/github.com/bazelbuild/rules_go/releases/download/v0.20.3/rules_go-v0.20.3.tar.gz",
-        "https://github.com/bazelbuild/rules_go/releases/download/v0.20.3/rules_go-v0.20.3.tar.gz",
+        "https://mirror.bazel.build/github.com/bazelbuild/rules_go/releases/download/v0.23.12/rules_go-v0.23.12.tar.gz",
+        "https://github.com/bazelbuild/rules_go/releases/download/v0.23.12/rules_go-v0.23.12.tar.gz",
     ],
-    sha256 = "e88471aea3a3a4f19ec1310a55ba94772d087e9ce46e41ae38ecebe17935de7b",
 )
 
 # Invoke go_rules_dependencies depending on host platform.
@@ -67,11 +67,11 @@ load_go_sdk()
 
 http_archive(
     name = "bazel_gazelle",
+    sha256 = "b85f48fa105c4403326e9525ad2b2cc437babaa6e15a3fc0b1dbab0ab064bc7c",
     urls = [
-        "https://storage.googleapis.com/bazel-mirror/github.com/bazelbuild/bazel-gazelle/releases/download/v0.19.1/bazel-gazelle-v0.19.1.tar.gz",
-        "https://github.com/bazelbuild/bazel-gazelle/releases/download/v0.19.1/bazel-gazelle-v0.19.1.tar.gz",
+        "https://mirror.bazel.build/github.com/bazelbuild/bazel-gazelle/releases/download/v0.22.2/bazel-gazelle-v0.22.2.tar.gz",
+        "https://github.com/bazelbuild/bazel-gazelle/releases/download/v0.22.2/bazel-gazelle-v0.22.2.tar.gz",
     ],
-    sha256 = "86c6d481b3f7aedc1d60c1c211c6f76da282ae197c3b3160f54bd3a8f847896f",
 )
 
 load("@bazel_gazelle//:deps.bzl", "gazelle_dependencies")
