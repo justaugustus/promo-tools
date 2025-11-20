@@ -6,8 +6,8 @@ require (
 	cloud.google.com/go/containeranalysis v0.14.2
 	cloud.google.com/go/errorreporting v0.3.2
 	cloud.google.com/go/iam v1.5.3
-	cloud.google.com/go/logging v1.13.0
-	cloud.google.com/go/storage v1.57.0
+	cloud.google.com/go/logging v1.13.1
+	cloud.google.com/go/storage v1.57.2
 	github.com/aws/aws-sdk-go-v2 v1.39.3
 	github.com/aws/aws-sdk-go-v2/config v1.31.13
 	github.com/aws/aws-sdk-go-v2/feature/s3/manager v1.19.13
@@ -43,7 +43,7 @@ require (
 	cloud.google.com/go/auth/oauth2adapt v0.2.8 // indirect
 	cloud.google.com/go/compute/metadata v0.9.0 // indirect
 	cloud.google.com/go/grafeas v0.3.16 // indirect
-	cloud.google.com/go/longrunning v0.6.7 // indirect
+	cloud.google.com/go/longrunning v0.7.0 // indirect
 	cloud.google.com/go/monitoring v1.24.2 // indirect
 	cuelabs.dev/go/oci/ociregistry v0.0.0-20250224124241-b27552d3e05c // indirect
 	cuelang.org/go v0.12.1 // indirect
